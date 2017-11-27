@@ -97,6 +97,9 @@
 .form-group {
 	margin-top: 35px;
 }
+.center_works {
+	text-align: center;
+}
 label {
 	font-size: 30px;
 	color: #55a6b2;
