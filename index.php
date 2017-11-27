@@ -28,5 +28,7 @@
         <?php include_once('inc/team.php') ?>
         <?php include_once('inc/works.php') ?>
         <?php include_once('inc/contacts.php') ?>
+
+        <script src="js/main.js"></script>
    </body>
 </html>
