@@ -73,9 +73,61 @@
 
 
 /* ---------------------- WORKS -----------------------*/
+#works {
+	background-color: #bcf6ff;
+}
 
+#works .box {
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.col-4 {
+	background-color: blue;
+	height: 300px;
+	padding: 0.75rem;
+}
+#works .title {
+	font-weight: 20;
+	font-size: 80px;
+	text-align: center;
+}
+#works .title_container {
+	width: 100%;
+}
+.form-group {
+	margin-top: 35px;
+}
+label {
+	font-size: 30px;
+	color: #55a6b2;
+}
+#graphic {
+	margin: 0 10px;
+}
+#video {
+	margin: 0 10px;
+}
+#web {
+	margin: 0 10px;
+}
+#interaction {
+	margin: 0 10px;
+}
+.graphic {
 
+}
+.video {
 
+}
+.web {
+
+}
+.interaction {
+
+}
 /* --------------------- CONTACTS ---------------------*/
 
 
