@@ -1,13 +1,13 @@
 <section id="team">
 	<!-- Team content -->
 
-	<div class="arrow arrow_right">
+	<div class="arrow" id="arrow_right">
 	</div>
 
-	<div class="arrow arrow_left">
+	<div class="arrow" id="arrow_left">
 	</div>
 
-	<div class="conteiner slide_1">
+	<div class="conteiner" id="slide_1">
 
 		<div class="row">
 
@@ -55,7 +55,7 @@
 
 
 
-	<div class="conteiner slide_2">
+	<div class="conteiner" id="slide_2">
 
 		<div class="row">
 
