@@ -9,6 +9,65 @@
 /* ----------------------- TEAM -----------------------*/
 
 
+#team .conteiner {
+	position: absolute;
+	left: 0;
+	right:0;
+}
+
+#team .row {
+	margin: 0;
+}
+
+#team .col-md-4 {
+	padding: 0;
+}
+
+#team .box_image {
+	width: 100%;
+	background-color: red;
+	height: 360px;
+	padding: 0;
+}
+
+#team h2.name_member {
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+#team .team_role {
+	text-align: center;
+	display: block;
+	padding: 15px;
+	font-size: 20px;
+}
+
+#team .conteiner.slide_2 {
+	right: -100%;
+	left: 100%;
+	opacity: 0;
+}
+
+#team .arrow {
+	height: 50px;
+	width: 50px;
+	border-radius: 50px;
+	background-color: blue;
+	position: absolute;
+	top: 180px;
+	z-index: 1;
+}
+
+#team .arrow_right {
+	right: 10px;
+}
+
+#team .arrow_left {
+	left: 10px;
+}
+
+
+
 
 /* ---------------------- WORKS -----------------------*/
 #works {
