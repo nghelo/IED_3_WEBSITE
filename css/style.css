@@ -8,6 +8,9 @@
 
 /* ----------------------- TEAM -----------------------*/
 
+#team {
+	position: relative;
+}
 
 #team .conteiner {
 	position: absolute;
@@ -42,7 +45,7 @@
 	font-size: 20px;
 }
 
-#team .conteiner.slide_2 {
+#team #slide_2 {
 	right: -100%;
 	left: 100%;
 	opacity: 0;
@@ -58,11 +61,11 @@
 	z-index: 1;
 }
 
-#team .arrow_right {
+#team #arrow_right {
 	right: 10px;
 }
 
-#team .arrow_left {
+#team #arrow_left {
 	left: 10px;
 }
 
