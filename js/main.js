@@ -52,10 +52,13 @@ $(".arrow").click( function() {
 
 /* ---------------------- WORKS -----------------------*/
 $(function() {
-	$(".box").click(function() {
-		console.log("2");
-		$(".col-md-4").css("display","none");
-	});
+  $("input").click(function() {
+  	var a = $(this).attr('id');
+  	$("." + a).css("top", "400px");
+  	if (a == "All") {
+  		$("div").css("display", "block");
+  	}
+  });
 });
 
 

@@ -1,3 +1,8 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+
 /* ---------------------- HEADER ----------------------*/
 .col-md-12 {
 	background-color: yellow;
@@ -32,6 +37,7 @@
 	position: absolute;
 	left: 0;
 	right:0;
+	background-color: #FFD1AD;
 }
 
 #team .row {
@@ -44,7 +50,7 @@
 
 #team .box_image {
 	width: 100%;
-	background-color: red;
+	background-color: #FFD1AD;
 	height: 360px;
 	padding: 0;
 }
@@ -68,10 +74,6 @@
 }
 
 #team .arrow {
-	height: 50px;
-	width: 50px;
-	border-radius: 50px;
-	background-color: blue;
 	position: absolute;
 	top: 180px;
 	z-index: 1;
@@ -85,14 +87,38 @@
 	left: 10px;
 }
 
+i {
+    border: solid #55a6b2;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
 
 
 
 /* ---------------------- WORKS -----------------------*/
 #works {
-	background-color: #bcf6ff;
+	position: relative;
 }
-
+#works .main_container {
+	position: absolute;
+	left: 0;
+	right: 0;
+	background-color: #bcf6ff;
+	margin-top: 20px;
+}
 #works .box {
 	width: 100%;
 	height: 100px;
@@ -100,18 +126,15 @@
 	margin: 0 auto;
 	margin-top: 30px;
 }
-.col-4 {
-	background-color: blue;
-	height: 300px;
-	padding: 0.75rem;
-}
 #works .title {
 	font-weight: 20;
-	font-size: 80px;
+	font-size: 90px;
 	text-align: center;
 }
 #works .title_container {
 	width: 100%;
+	text-align: center;
+	height: 80px;
 }
 .form-group {
 	margin-top: 35px;
@@ -135,11 +158,22 @@ label {
 #interaction {
 	margin: 0 10px;
 }
+#All {
+	margin: 0 10px;
+}
 .graphic {
-
+	height: 300px;
+	width: 100%;
+	background-color: #000000;
+	margin-top: 20px;
+	position: relative;
 }
 .video {
-
+	height: 300px;
+	width: 100%;
+	background-color: #000000;
+	margin-top: 20px;
+	position: relative;
 }
 .web {
 
