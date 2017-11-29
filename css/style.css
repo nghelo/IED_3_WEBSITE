@@ -17,6 +17,7 @@
 	position: absolute;
 	left: 0;
 	right:0;
+	background-color: #FFD1AD;
 }
 
 #team .row {
@@ -29,7 +30,7 @@
 
 #team .box_image {
 	width: 100%;
-	background-color: red;
+	background-color: #FFD1AD;
 	height: 360px;
 	padding: 0;
 }
@@ -53,10 +54,6 @@
 }
 
 #team .arrow {
-	height: 50px;
-	width: 50px;
-	border-radius: 50px;
-	background-color: blue;
 	position: absolute;
 	top: 180px;
 	z-index: 1;
@@ -68,6 +65,24 @@
 
 #team #arrow_left {
 	left: 10px;
+}
+
+i {
+    border: solid #55a6b2;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
 }
 
 
