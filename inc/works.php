@@ -34,19 +34,28 @@
 			<div class="row">
 			 <div class="col-md-4">
 		 	  <div class="graphic">
-		 	  	<div class="description"></div>
+		 	  	<div class="description">
+		 	  		<h2 class="project"></h2>
+		 	  		<h3 class="subject"></h3>
+		 	  	</div>
 		 	  	<div class="photo"></div>
 		 	  </div>			
 			 </div>
 			 <div class="col-md-4">
 			  <div class="graphic">
-			  	<div class="description"></div>
+			  	<div class="description">
+			  		<h2 class="project"></h2>
+		 	  		<h3 class="subject"></h3>
+			  	</div>
 		 	  	<div class="photo"></div>
 			  </div>		
 			 </div>
 			 <div class="col-md-4">
 		  	<div class="graphic">
-		  		<div class="description"></div>
+		  		<div class="description">
+		  			<h2 class="project"></h2>
+		 	  		<h3 class="subject"></h3>
+		  		</div>
 		 	  	<div class="photo"></div>
 		  	</div>		
 			 </div>
@@ -54,19 +63,28 @@
 		  <div class="row">
 				<div class="col-md-3">
 					<div class="video">
-						<div class="description"></div>
+						<div class="description">
+							<h2 class="project"></h2>
+		 	  		<h3 class="subject"></h3>
+						</div>
 		 	  	  <div class="photo"></div>
 					</div>
 				</div>
 				<div class="col-md-3">
 					<div class="video">
-						<div class="description"></div>
+						<div class="description">
+							<h2 class="project"></h2>
+		 	  		  <h3 class="subject"></h3>
+						</div>
 		 	  	  <div class="photo"></div>
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="video">
-						<div class="description"></div>
+						<div class="description">
+							<h2 class="project"></h2>
+		 	  			<h3 class="subject"></h3>
+						</div>
 		 	  	  <div class="photo"></div> 
 					</div>
 				</div>
