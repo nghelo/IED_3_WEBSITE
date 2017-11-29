@@ -4,9 +4,24 @@ body {
 
 
 /* ---------------------- HEADER ----------------------*/
+.col-md-12 {
+	background-color: yellow;
+	height: 300px;
+	padding: 0.75rem;
 
+}
 
+.box_imgHeader{
+	background-color: #de4fb1;
+	height: 500px;
+	margin: 0 auto;
+}
 
+.arrow_bt{
+	height: 300px;
+	width: 300px;
+	background-color: green;
+}
 /* ----------------------- MENU -----------------------*/
 
 
