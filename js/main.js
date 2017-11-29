@@ -54,9 +54,10 @@ $(".arrow").click( function() {
 $(function() {
   $("input").click(function() {
   	var a = $(this).attr('id');
-  	$("." + a).css("top", "400px");
+  	$("." + a).css("height","0");
+  	$("." + a).css("margin","0");
   	if (a == "All") {
-  		$("div").css("display", "block");
+  		$("div.col-md-4").append($(".graphic"));
   	}
   });
 });

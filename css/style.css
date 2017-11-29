@@ -152,6 +152,7 @@ label {
 	background-color: #000000;
 	margin-top: 20px;
 	position: relative;
+	transition: height 900ms, margin 3s cubic-bezier(0, 0, 0.2, 1);
 }
 .video {
 	height: 300px;
@@ -159,12 +160,19 @@ label {
 	background-color: #000000;
 	margin-top: 20px;
 	position: relative;
+	transition: height 900ms cubic-bezier(0, 0, 0.2, 1), height 900ms cubic-bezier(0, 0, 0.2, 1);
 }
 .web {
 
 }
 .interaction {
 
+}
+.project {
+	margin: 0;
+}
+.subject {
+	margin: 0;
 }
 /* --------------------- CONTACTS ---------------------*/
 
