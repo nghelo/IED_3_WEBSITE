@@ -53,7 +53,11 @@ $(".arrow").click( function() {
 /* ---------------------- WORKS -----------------------*/
 $(function() {
   $("input").click(function() {
-  	$(this).id();
+  	var a = $(this).attr('id');
+  	$("." + a).css("top", "400px");
+  	if (a == "All") {
+  		$("div").css("display", "block");
+  	}
   });
 });
 
