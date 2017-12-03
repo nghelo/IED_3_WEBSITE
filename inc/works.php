@@ -33,9 +33,9 @@
 		<div class="container">
 			<div class="row">
 			 <div class="col-md-4">
-		 	  <div class="graphic">
+		 	  <div class="video">
 		 	  	<div class="description">
-		 	  		<h2 class="project"></h2>
+		 	  		<h2 class="project">ciioaoao</h2>
 		 	  		<h3 class="subject"></h3>
 		 	  	</div>
 		 	  	<div class="photo"></div>
@@ -61,8 +61,8 @@
 			 </div>
 		  </div>
 		  <div class="row">
-				<div class="col-md-3">
-					<div class="video">
+				<div class="col-md-4">
+					<div class="interaction">
 						<div class="description">
 							<h2 class="project"></h2>
 		 	  		<h3 class="subject"></h3>
@@ -70,7 +70,7 @@
 		 	  	  <div class="photo"></div>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-4">
 					<div class="video">
 						<div class="description">
 							<h2 class="project"></h2>
@@ -79,8 +79,8 @@
 		 	  	  <div class="photo"></div>
 					</div>
 				</div>
-				<div class="col-md-6">
-					<div class="video">
+				<div class="col-md-4">
+					<div class="web">
 						<div class="description">
 							<h2 class="project"></h2>
 		 	  			<h3 class="subject"></h3>

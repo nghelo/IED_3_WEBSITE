@@ -54,10 +54,25 @@ $(".arrow").click( function() {
 $(function() {
   $("input").click(function() {
   	var a = $(this).attr('id');
-  	$("." + a).css("height","0");
-  	$("." + a).css("margin","0");
+  	if (a == "graphic") {
+  		$(".video").css("height","0");
+  		$(".video").css("margin","0");
+  		$(".web").css("height","0");
+  		$(".web").css("margin","0");
+  		$("div.video h2").css("display", "none");
+  		$(".interaction").css("transform","translate(0px,-320px)");
+  	}
   	if (a == "All") {
-  		$("div.col-md-4").append($(".graphic"));
+  		$(".video").css("height","300px");
+  		$(".video").css("margin-top","20px");
+  		$(".web").css("height","300px");
+  		$(".web").css("margin-top","20px");
+  		$(".graphic").css("height","300px");
+  		$(".graphic").css("margin-top","20px");
+  		$(".interaction").css("height","300px");
+  		$(".interaction").css("margin-top","20px");
+  		$(".interaction").css("transform","translate(0px, 0px)");
+  		$("div.video h2").css("display", "inline-block");
   	}
   });
 });
