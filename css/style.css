@@ -23,6 +23,11 @@ body {
 
 /* ----------------------- MENU -----------------------*/
 
+.logo {
+    width: 400px;
+    height: 400px;
+    background-image: url();
+}
 
 
 /* ----------------------- TEAM -----------------------*/
@@ -197,6 +202,12 @@ label {
 }
 .subject {
 	margin: 0;
+}
+.description {
+  background-color: red;
+  width: 100%;
+  height: 300px;
+  opacity: 0;
 }
 /* --------------------- CONTACTS ---------------------*/
 
