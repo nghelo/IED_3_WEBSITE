@@ -75,6 +75,14 @@ $(function() {
   		$("div.video h2").css("display", "inline-block");
   	}
   });
+  $(".description").click(function(){
+    $(this).css('opacity') == 1) {
+      $(this).css('opacity','0');
+    }else{
+      $(".description").css('opacity','0');
+        $(this).css('opacity','1');
+    }
+  });
 });
 
 
