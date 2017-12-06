@@ -55,25 +55,26 @@ $(function() {
   $("input").click(function() {
   	var a = $(this).attr('id');
   	if (a == "graphic") {
-  		$(".video").css("height","0");
-  		$(".video").css("margin","0");
-  		$(".web").css("height","0");
-  		$(".web").css("margin","0");
-  		$("div.video h2").css("display", "none");
+  		$(".video").css("height","0").css("margin","0").css("display","none");
+  		$(".web").css("height","0").css("margin","0").css("display","none");
   		$(".interaction").css("transform","translate(0px,-320px)");
+      $(".description").css('opacity','0');
   	}
   	if (a == "All") {
-  		$(".video").css("height","300px");
-  		$(".video").css("margin-top","20px");
-  		$(".web").css("height","300px");
-  		$(".web").css("margin-top","20px");
-  		$(".graphic").css("height","300px");
-  		$(".graphic").css("margin-top","20px");
-  		$(".interaction").css("height","300px");
-  		$(".interaction").css("margin-top","20px");
+  		$(".video").css("height","300px").css("margin-top","20px").css("display","block");
+  		$(".web").css("height","300px").css("margin-top","20px").css("display","block");
+  		$(".graphic").css("height","300px").css("margin-top","20px").css("display","block");
   		$(".interaction").css("transform","translate(0px, 0px)");
-  		$("div.video h2").css("display", "inline-block");
   	}
+  });
+  
+  $(".description").click(function() {
+    if ($(this).css('opacity') == 0.7) {
+      $(this).css('opacity','0');
+    } else {
+      $(".description").css('opacity','0');
+        $(this).css('opacity','0.7');
+    }
   });
 });
 
