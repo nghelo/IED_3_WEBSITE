@@ -1,6 +1,32 @@
 <header>
 	<nav>
 		<!-- Nav content -->
+        <div class="box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+		 	            <div class="#">
+		 	  	             <div class="logo">
+                             </div>
+		 	            </div>			
+			        </div>
+                    <div class="col-md-6">
+		 	            <div class="vuoto">
+		 	  	             <div class="#">
+                             </div>
+		 	            </div>			
+			        </div>
+                    <div class="col-md-3">
+		 	            <div class="#">
+		 	  	             <div class="hambmenu">
+                             </div>
+		 	            </div>			
+			         </div>
+                </div>
+            </div>
+        </div>
+        
+        
 	</nav>
 	<!-- Header content -->
 	<section id="header">
