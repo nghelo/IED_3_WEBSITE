@@ -29,6 +29,11 @@
         <?php include_once('inc/works.php') ?>
         <?php include_once('inc/contacts.php') ?>
 
-        <script src="js/main.js"></script>
+        <script src="js/header.js"></script>
+        <script src="js/menu.js"></script>
+        <script src="js/team.js"></script>
+        <script src="js/works.js"></script>
+        <script src="js/contacts.js"></script>
+        <script src="js/footer.js"></script>
    </body>
 </html>
