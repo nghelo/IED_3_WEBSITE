@@ -34,13 +34,10 @@ body {
 
 #team {
 	position: relative;
-	height: 451px;
 }
 
 #team .conteiner {
-	position: absolute;
-	left: 0;
-	right:0;
+	width:100%;
 	background-color: #FFD1AD;
 }
 
@@ -71,11 +68,6 @@ body {
 	font-size: 20px;
 }
 
-#team #slide_2 {
-	right: -100%;
-	left: 100%;
-	opacity: 0;
-}
 
 #team .arrow {
 	position: absolute;

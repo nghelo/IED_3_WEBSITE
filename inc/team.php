@@ -1,15 +1,6 @@
 <section id="team">
 	<!-- Team content -->
 
-	<div class="arrow" id="arrow_right">
-	<i class="right" id="arrow_right"></i>
-
-	</div>
-
-	<div class="arrow" id="arrow_left">
-	<i class="left" id="arrow_left"></i>
-	
-	</div>
 	
 
 	<div class="conteiner" id="slide_1">
