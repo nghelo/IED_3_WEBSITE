@@ -60,7 +60,6 @@ $(function() {
       $(".web").css("height","0").css("margin","0").css("display","none");
       $(".down").css("transform","translate(0px,-320px)");
       */
-      
     }
     if (a == "All") {
       $(".video").css("height","300px").css("margin-top","20px").css("display","block");
