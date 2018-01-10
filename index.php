@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 <html lang="it-IT" dir="ltr">
 	<head>
@@ -22,12 +21,21 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+		<!-- Library Owl Carousel -->
+		<link rel="stylesheet" href="libraries/OwlCarousel2-2.2.1/dist/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="libraries/OwlCarousel2-2.2.1/dist/assets/owl.theme.default.min.css">
+
 	</head>
 	<body class="ied_3_website">
 		<?php include_once('inc/header.php') ?>
         <?php include_once('inc/team.php') ?>
         <?php include_once('inc/works.php') ?>
         <?php include_once('inc/contacts.php') ?>
+
+
+        <!-- Owl Carousel script -->
+        <script src="libraries/OwlCarousel2-2.2.1/dist/owl.carousel.min.js"></script>
 
         <script src="js/header.js"></script>
         <script src="js/menu.js"></script>
