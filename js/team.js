@@ -2,19 +2,31 @@ $(document).ready(function(){
   $(".owl-carousel").owlCarousel();
 
 
+
 	$("#team .button_up").click(function(){
-  		if($("#team .window").hasClass("active")){
 
+      var padre = $(this).parent();
+      var figlio = $(this).children();
 
-  			$("#team .window").css("height","15%");
-  			$("#team .window").removeClass("active");
+  		if(padre.hasClass("active")){
+
+        padre.css("height","15%");
+  			padre.removeClass("active");
+
+        figlio.css("transform","rotate(-135deg)");
+        figlio.css("margin-top","20px");
+
   	
   		} else {
 
-  			$("#team .window").css("height","85%");
-  			$("#team .window").addClass("active");
+  			padre.css("height","85%");
+  			padre.addClass("active");
+
+        figlio.css("transform","rotate(45deg)");
+        figlio.css("margin-top","13px");
 
 		}
+
 	});
 
 

@@ -64,6 +64,160 @@ body {
 	display: block;
 	position: absolute;
 	top: 50px;
+	text-align: center;
+
+}
+
+#team .window1 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 15%;
+	bottom: 0;
+	background: red;
+	transition: 0.5s ease-in-out;
+
+}
+
+#team .window1 .quote {
+	margin: 30px;
+	display: block;
+	position: absolute;
+	top: 50px;
+	text-align: center;
+}
+
+#team .window2 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 15%;
+	bottom: 0;
+	background: red;
+	transition: 0.5s ease-in-out;
+
+}
+
+#team .window2 .quote {
+	margin: 30px;
+	display: block;
+	position: absolute;
+	top: 50px;
+	text-align: center;
+}
+
+#team .window3 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 15%;
+	bottom: 0;
+	background: red;
+	transition: 0.5s ease-in-out;
+
+}
+
+#team .window3 .quote {
+	margin: 30px;
+	display: block;
+	position: absolute;
+	top: 50px;
+	text-align: center;
+}
+
+#team .window4 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 15%;
+	bottom: 0;
+	background: red;
+	transition: 0.5s ease-in-out;
+
+}
+
+#team .window4 .quote {
+	margin: 30px;
+	display: block;
+	position: absolute;
+	top: 50px;
+	text-align: center;
+}
+
+#team .window5 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 15%;
+	bottom: 0;
+	background: red;
+	transition: 0.5s ease-in-out;
+
+}
+
+#team .window5 .quote {
+	margin: 30px;
+	display: block;
+	position: absolute;
+	top: 50px;
+	text-align: center;
+}
+
+#team .window6 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 15%;
+	bottom: 0;
+	background: red;
+	transition: 0.5s ease-in-out;
+
+}
+
+#team .window6 .quote {
+	margin: 30px;
+	display: block;
+	position: absolute;
+	top: 50px;
+	text-align: center;
+}
+
+#team .window7 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 15%;
+	bottom: 0;
+	background: red;
+	transition: 0.5s ease-in-out;
+
+}
+
+#team .window7 .quote {
+	margin: 30px;
+	display: block;
+	position: absolute;
+	top: 50px;
+	text-align: center;
+}
+
+#team .window8 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 15%;
+	bottom: 0;
+	background: red;
+	transition: 0.5s ease-in-out;
+
+}
+
+#team .window8 .quote {
+	margin: 30px;
+	display: block;
+	position: absolute;
+	top: 50px;
+	text-align: center;
 }
 
 #team .title {
@@ -83,6 +237,22 @@ body {
 	transform: translate(-25px, 0);
 	cursor: pointer;
 
+}
+
+
+#team i {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 9px;
+    margin-top: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+#team .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    transition: 0.5s ease-in-out;
 }
 
 
