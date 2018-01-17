@@ -120,7 +120,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-4">
-					<div class="graphic down">
+					<div class="graphic down plus">
 						<div class="description">
 							<h2 class="project"></h2>
 		 	  		<h3 class="subject"></h3>
