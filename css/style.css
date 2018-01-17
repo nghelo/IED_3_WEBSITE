@@ -316,13 +316,7 @@ label {
 	margin-top: 20px;
 	position: relative;
 	transition: all 900ms cubic-bezier(0, 0, 0.2, 1);
-}
-
-
-.overlay {
-	
-
-
+	background: url(https://cdn.dribbble.com/users/60166/screenshots/931826/the_land_contour.jpg);
 }
 
 .video {
@@ -331,7 +325,6 @@ label {
 	background-color: #000000;
 	margin-top: 20px;
 	position: relative;
-	
   	background: url(https://cdn.dribbble.com/users/60166/screenshots/931826/the_land_contour.jpg);
 }
 
@@ -349,6 +342,7 @@ label {
 	margin-top: 20px;
 	position: relative;
 	transition: all 900ms cubic-bezier(0, 0, 0.2, 1);
+	background: url(https://cdn.dribbble.com/users/60166/screenshots/931826/the_land_contour.jpg);
 }
 .interaction {
 	height: 300px;

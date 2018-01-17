@@ -41,12 +41,12 @@
 		 	  </div>			
 			 </div>
 			 <div class="col-md-4">
-			  <div class="graphic">
+			  <div class="video">
 			  	<div class="description">
 			  		<h2 class="project"></h2>
 		 	  		<h3 class="subject"></h3>
 			  	</div>
-		 	  	<div class="photo_2"></div>
+		 	  	
 			  </div>		
 			 </div>
 			 <div class="col-md-4">

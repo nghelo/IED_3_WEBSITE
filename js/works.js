@@ -37,10 +37,16 @@ $(function() {
   
   $(".description").click(function() {
     if ($(this).css('opacity') == 1) {
-       $(this).css('opacity','0'); 
+       $(this).css('opacity','0');
+       $(this).css("transform","translate(0px, 0px)");
+       $(".video").css("transform","translate(0px, 0px)");
+       $(".video").css("transform","translate(0px, 0px)"); 
     } else {
       $(".description").css('opacity','0');
       $(this).css('opacity','1');
+      $(this).css("transform","translate(0px, -5px)");
+      $(".video").css("transform","translate(0px, -5px)");
+      $(".graphic").css("transform","translate(0px, -5px)");
     }
     
     $(window).resize(function() {
