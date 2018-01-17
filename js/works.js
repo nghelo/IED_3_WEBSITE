@@ -42,12 +42,8 @@ $(function() {
       $(".description").css('opacity','0');
       $(this).css('opacity','1');
     }
-  });
-<<<<<<< HEAD
-});
-=======
-
-  $(window).resize(function() {
+    
+    $(window).resize(function() {
     if ($(window).width() < 992) {
       $(".down").css("transform","translate(0px, 0px)");
       $(".plus").css("transform","translate(0px, 0px)");
@@ -56,5 +52,7 @@ $(function() {
       $(".plus").css("transform","translate(390px,-640px)");
     }
   });
+  });
+
 });
->>>>>>> 83dbc9121f37513c39f0bdf95d7c4a2becebf651
+
