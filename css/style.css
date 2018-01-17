@@ -43,7 +43,27 @@ body {
 	border-radius: 2px;
 	margin: 5px;
 	height: 250px;
+	overflow: hidden;
+	position: relative;
 
+}
+
+#team .window {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 15%;
+	bottom: 0;
+	background: red;
+	transition: 0.5s ease-in-out;
+
+}
+
+#team .window .quote {
+	margin: 30px;
+	display: block;
+	position: absolute;
+	top: 50px;
 }
 
 #team .title {
@@ -52,6 +72,18 @@ body {
 	text-align: center;
 }
 
+#team .button_up {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background-color: #ddd;
+	position: absolute;
+	left:50%;
+	top: -25px;
+	transform: translate(-25px, 0);
+	cursor: pointer;
+
+}
 
 
 /* ---------------------- WORKS -----------------------*/
