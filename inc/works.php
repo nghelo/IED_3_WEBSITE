@@ -37,7 +37,6 @@
 		 	  	<div class="description">
 		 	  		<h2 class="project">Logo Design</h2>
 		 	  		<h3 class="subject"></h3>
-		 	  		<div class="photo_1"></div>
 		 	  	</div>
 		 	  </div>			
 			 </div>
