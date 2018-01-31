@@ -177,16 +177,16 @@ $(function() {
       $(".video").css("transform","translate(0px, -5px)");
       $(".graphic").css("transform","translate(0px, -5px)");
     }
-<<<<<<< HEAD
+
   });
 
   $(window).resize(function() {
     if (innerWidth < 992) {
-=======
+
     
     $(window).resize(function() {
     if ($(window).width() < 992) {
->>>>>>> 972b19823efde3d5a76203a14167f520bf83dfe4
+
       $(".down").css("transform","translate(0px, 0px)");
       $(".plus").css("transform","translate(0px, 0px)");
       $(".web").css("transform","translate(0px, 0px)");
@@ -214,7 +214,7 @@ $(function() {
       $(".first").css("transform","translate(-323px, -320px)");
     }
   });
-<<<<<<< HEAD
+
 
 
 
@@ -224,9 +224,9 @@ $(function() {
   		//loop();
   	});
   }  
-=======
+
   });
 
->>>>>>> 972b19823efde3d5a76203a14167f520bf83dfe4
+
 });
 
