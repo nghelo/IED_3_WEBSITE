@@ -164,6 +164,7 @@ $(function() {
     }
   });
   
+  
   $(".description").click(function() {
     if ($(this).css('opacity') == 1) {
        $(this).css('opacity','0');
@@ -179,9 +180,8 @@ $(function() {
     }
 
   });
+  
 
-  $(window).resize(function() {
-    if (innerWidth < 992) {
 
     
     $(window).resize(function() {
@@ -225,7 +225,7 @@ $(function() {
   	});
   }  
 
-  });
+  
 
 
 });

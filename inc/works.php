@@ -35,18 +35,19 @@
 			 <div class="col-md-4">
 		 	  <div class="video">
 		 	  	<div class="description">
-		 	  		<h2 class="project">Logo Design</h2>
+		 	  		<h2 class="project">ciioaoao</h2>
 		 	  		<h3 class="subject"></h3>
 		 	  	</div>
+		 	  	<div class="photo"></div>
 		 	  </div>			
 			 </div>
 			 <div class="col-md-4">
-			  <div class="video">
+			  <div class="graphic">
 			  	<div class="description">
 			  		<h2 class="project"></h2>
 		 	  		<h3 class="subject"></h3>
 			  	</div>
-		 	  	
+		 	  	<div class="photo"></div>
 			  </div>		
 			 </div>
 			 <div class="col-md-4">
@@ -55,7 +56,7 @@
 		  			<h2 class="project"></h2>
 		 	  		<h3 class="subject"></h3>
 		  		</div>
-		 	  	<div class="photo_3"></div>
+		 	  	<div class="photo"></div>
 		  	</div>		
 			 </div>
 		  </div>
@@ -66,7 +67,7 @@
 							<h2 class="project"></h2>
 		 	  		<h3 class="subject"></h3>
 						</div>
-		 	  	  <div class="photo_4"></div>
+		 	  	  <div class="photo"></div>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -75,7 +76,7 @@
 							<h2 class="project"></h2>
 		 	  		  <h3 class="subject"></h3>
 						</div>
-		 	  	  <div class="photo_5"></div>
+		 	  	  <div class="photo"></div>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -84,7 +85,7 @@
 							<h2 class="project"></h2>
 		 	  			<h3 class="subject"></h3>
 						</div>
-		 	  	  <div class="photo_6"></div> 
+		 	  	  <div class="photo"></div> 
 					</div>
 				</div>
 			</div>
@@ -95,7 +96,7 @@
 							<h2 class="project"></h2>
 		 	  		<h3 class="subject"></h3>
 						</div>
-		 	  	  <div class="photo_7"></div>
+		 	  	  <div class="photo"></div>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -104,7 +105,7 @@
 							<h2 class="project"></h2>
 		 	  		  <h3 class="subject"></h3>
 						</div>
-		 	  	  <div class="photo_8"></div>
+		 	  	  <div class="photo"></div>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -113,7 +114,7 @@
 							<h2 class="project"></h2>
 		 	  			<h3 class="subject"></h3>
 						</div>
-		 	  	  <div class="photo_9"></div> 
+		 	  	  <div class="photo"></div> 
 					</div>
 				</div>
 			</div>
@@ -124,7 +125,7 @@
 							<h2 class="project"></h2>
 		 	  		<h3 class="subject"></h3>
 						</div>
-		 	  	  <div class="photo_10"></div>
+		 	  	  <div class="photo"></div>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -133,7 +134,7 @@
 							<h2 class="project"></h2>
 		 	  		  <h3 class="subject"></h3>
 						</div>
-		 	  	  <div class="photo_11"></div>
+		 	  	  <div class="photo"></div>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -142,7 +143,7 @@
 							<h2 class="project"></h2>
 		 	  			<h3 class="subject"></h3>
 						</div>
-		 	  	  <div class="photo_12"></div> 
+		 	  	  <div class="photo"></div> 
 					</div>
 				</div>
 			</div>
