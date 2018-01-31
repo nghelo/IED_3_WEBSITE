@@ -1,5 +1,5 @@
 <section id="works">
-  <div class="main_container">
+  <div class="mainContainer">
   	<div class="title_container">
 			<h1 class="title">Our Works</h1>
 		</div>
@@ -70,7 +70,7 @@
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="video">
+					<div class="video prime">
 						<div class="description">
 							<h2 class="project"></h2>
 		 	  		  <h3 class="subject"></h3>
@@ -99,7 +99,7 @@
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="video">
+					<div class="interaction">
 						<div class="description">
 							<h2 class="project"></h2>
 		 	  		  <h3 class="subject"></h3>
@@ -108,7 +108,7 @@
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="web">
+					<div class="web one">
 						<div class="description">
 							<h2 class="project"></h2>
 		 	  			<h3 class="subject"></h3>
@@ -128,7 +128,7 @@
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="video">
+					<div class="interaction first">
 						<div class="description">
 							<h2 class="project"></h2>
 		 	  		  <h3 class="subject"></h3>
@@ -137,7 +137,7 @@
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="web">
+					<div class="web two">
 						<div class="description">
 							<h2 class="project"></h2>
 		 	  			<h3 class="subject"></h3>
