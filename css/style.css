@@ -360,16 +360,21 @@ body {
 #works {
 	position: relative;
 }
-#works .main_container {
+#works .mainContainer {
 	position: absolute;
 	left: 0;
 	right: 0;
-	background-color: #bcf6ff;
+	background: #667db6;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	margin-top: 20px;
+	background-size: 600%;
+	background-position: 0 0;
+	box-shadow: inset 0 0 5em rgba(0,0,0,.5);
+	background-repeat: repeat-x;
 }
 #works .box {
 	width: 100%;
-	height: 100px;
 	background-color: black;
 	margin: 0 auto;
 	margin-top: 30px;
@@ -385,7 +390,7 @@ body {
 	height: 80px;
 }
 .form-group {
-	margin-top: 35px;
+	margin-top: 30px;
 }
 .center_works {
 	text-align: center;
@@ -416,25 +421,17 @@ label {
 	margin-top: 20px;
 	position: relative;
 	transition: all 900ms cubic-bezier(0, 0, 0.2, 1);
-	background: url(https://cdn.dribbble.com/users/60166/screenshots/931826/the_land_contour.jpg);
+	overflow: hidden;
 }
-
 .video {
 	height: 300px;
 	width: 100%;
 	background-color: #000000;
 	margin-top: 20px;
 	position: relative;
-  	background: url(https://cdn.dribbble.com/users/60166/screenshots/931826/the_land_contour.jpg);
+	transition: all 900ms cubic-bezier(0, 0, 0.2, 1);
+	overflow: hidden;
 }
-
-.image {
-  background-image: url(https://cdn.dribbble.com/users/60166/screenshots/931826/the_land_contour.jpg);
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-
 .web {
 	height: 300px;
 	width: 100%;
@@ -442,7 +439,7 @@ label {
 	margin-top: 20px;
 	position: relative;
 	transition: all 900ms cubic-bezier(0, 0, 0.2, 1);
-	background: url(https://cdn.dribbble.com/users/60166/screenshots/931826/the_land_contour.jpg);
+	overflow: hidden;
 }
 .interaction {
 	height: 300px;
@@ -451,18 +448,36 @@ label {
 	margin-top: 20px;
 	position: relative;
 	transition: all 900ms cubic-bezier(0, 0, 0.2, 1);
+	overflow: hidden;
 }
 .project {
-	text-align: center;
-	font-family: Futura;
-	font-size: 40pt;
-	color: white;
-	line-height: 5.5;
-	height: 20px;
+	margin: 0;
 }
 .subject {
 	margin: 0;
 }
+.description {
+  background-color: red;
+  height: 300px;
+  width: 101%;
+  opacity: 0;
+}
+.space {
+	height: 0;
+	width: 100%;
+	margin-top: 30px;
+}
+.video {
+	background-color: #FFFFFF;
+}
+@media screen and (max-width: 992px) {
+	
+}
+
+
+
+
+
 .description {
   width: 100%;
   height: 300px;
@@ -474,17 +489,7 @@ label {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 }
 
-.space {
-	height: 0;
-	width: 100%;
-	margin-top: 200px;
-}
-.down {
-	background-color: #FFFFFF;
-}
-@media screen and (max-width: 992px) {
-	
-}
+
 /* --------------------- CONTACTS ---------------------*/
 
 

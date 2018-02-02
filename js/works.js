@@ -11,7 +11,7 @@ $(function() {
         if (innerWidth < 992) {
           $(".down").css("transform","translate(0px, 0px)");
           $(".plus").css("transform","translate(0px, 0px)");
-         
+          console.log(innerWidth);
         } else {
           $(".down").css("transform","translate(0px, -320px)");
           $(".plus").css("transform","translate(390px, -640px)");
@@ -164,29 +164,17 @@ $(function() {
     }
   });
   
-  
   $(".description").click(function() {
-    if ($(this).css('opacity') == 1) {
-       $(this).css('opacity','0');
-       $(this).css("transform","translate(0px, 0px)");
-       $(".video").css("transform","translate(0px, 0px)");
-       $(".video").css("transform","translate(0px, 0px)"); 
+    if ($(this).css('opacity') == 0.7) {
+      $(this).css('opacity','0');
     } else {
       $(".description").css('opacity','0');
-      $(this).css('opacity','1');
-      $(this).css("transform","translate(0px, -5px)");
-      $(".video").css("transform","translate(0px, -5px)");
-      $(".graphic").css("transform","translate(0px, -5px)");
+        $(this).css('opacity','0.7');
     }
-
   });
-  
 
-
-    
-    $(window).resize(function() {
-    if ($(window).width() < 992) {
-
+  $(window).resize(function() {
+    if (innerWidth < 992) {
       $(".down").css("transform","translate(0px, 0px)");
       $(".plus").css("transform","translate(0px, 0px)");
       $(".web").css("transform","translate(0px, 0px)");
@@ -217,16 +205,10 @@ $(function() {
 
 
 
-
   
   function loop() {
   	$("div.mainContainer").animate({backgroundPositionX: "+=60%"}, 1000, "linear", function () {
   		//loop();
   	});
   }  
-
-  
-
-
 });
-
