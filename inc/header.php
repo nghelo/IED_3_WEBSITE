@@ -1,48 +1,29 @@
 <header>
+	<section id="menu">
 	<nav>
 		<!-- Nav content -->
         <div class="box">
-            <div class="container">
                 <div class="row">
-                    <div class="col-md-3">
-		 	            <div class="#">
-		 	  	             <div class="logo">
-                             </div>
-		 	            </div>			
-			        </div>
-                    <div class="col-md-6">
-		 	            <div class="vuoto">
-		 	  	             <div class="#">
-                             </div>
-		 	            </div>			
-			        </div>
-                    <div class="col-md-3">
+                    <div class="col-md-12">
 		 	            <div class="#">
 		 	  	             <div class="hambmenu">
-                             </div>
+		 	  	             	<div class="open"></div>
+		 	  	             	<div class="closed"></div>
+		 	  	             </div>
+		 	  	             <div class="menu">
+		 	  	             	<ul>
+		 	  	             		<li><a href="#">Home</a></li>
+		 	  	             		<li><a href="team.php">Team</a></li>
+		 	  	             		<li><a href="works.php">Works</a></li>
+		 	  	             		<li><a href="contacts.php">Contacts</a></li>
+		 	  	             	</ul>
+		 	  	             </div>
 		 	            </div>			
 			         </div>
                 </div>
-            </div>
-        </div>
-        
-        
-	</nav>
+            </div>      
+	    </nav>
+	    </section>
 	<!-- Header content -->
-	<section id="header">
-			<div class="slogan_container">
-				<h1 class="title">Spazio di testo per inserire uno slogan/motto
-				</h1>
-			</div>
-				<div class="img_container">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="scroll_container">
-								<div class="riquadro_scroll">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-	</section>
+	
 </header>

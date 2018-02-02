@@ -4,22 +4,8 @@ body {
 
 
 /* ---------------------- HEADER ----------------------*/
-#header .col-md-12 {
-	background-color: yellow;
-	height: 400px;
-	padding: 0.75rem;
 
 
-}
-
-.riquadro_scroll {
-	background-image: url(../images/IMG_flavio.jpg);
-	background-position: cover;
-	width: 200px;
-	height: 200px;
-	
-
-}
 
 /* ----------------------- MENU -----------------------*/
 
@@ -29,7 +15,121 @@ body {
     background-image: url();
 }
 
+#menu {
+	position: relative;
+	width: 100%;
+}
 
+#menu .hambmenu {
+	width: 80px;
+	position: fixed;
+	top: 30px;
+	right: 20px;
+	text-align: right;
+	padding-right: 30px;
+	height: 30px;
+	cursor: pointer;
+	color: #262626;
+	z-index: 1000;
+}
+
+#menu .open {
+	position: absolute;
+	right: 50px;
+	font-size: 24px;
+	bottom: -6px;
+}
+
+#menu .open .closed {
+	width: 50px;
+	position: absolute;
+	top: 0;
+	right: 35px;
+}
+
+#menu .closed {
+	display: none;
+}
+
+#menu .closed.active {
+	display: block;
+}
+
+#menu .hambmenu.active .open {
+	display: none;
+}
+
+#menu .hambmenu:before,
+#menu .hambmenu:after
+ {
+	content: '';
+	position: absolute;
+	width: 50px;
+	height: 4px;
+	background-color: #262626;
+	right: 15px;
+}
+
+#menu .hambmenu:before
+{
+	top: 5px;
+	transition: .5s;
+}
+
+#menu .hambmenu:after
+{
+	bottom: 5px;
+	transition: .5s;
+}
+
+#menu .hambmenu.active:before
+{
+	background-color: #fff;
+	top: 17px;
+	transform: rotate(50deg);
+}
+
+#menu .hambmenu.active:after
+{
+	background-color: #fff;
+	bottom: 9px;
+	transform: rotate(-50deg);
+}
+
+#menu .menu {
+	width: 100%;
+	height: 100vh;
+	background-color: #262626;
+	display: none;
+	position: fixed;
+	z-index: 999;
+}
+
+#menu .menu.active {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+#menu .menu ul {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+#menu .menu ul li {
+	list-style: none;
+}
+
+#menu .menu ul li a {
+	display: block;
+	font-size: 24px;
+	margin: 10px 0;
+	color: #fff;
+	text-decoration: none;
+}
 /* ----------------------- TEAM -----------------------*/
 
 #team {
@@ -43,7 +143,181 @@ body {
 	border-radius: 2px;
 	margin: 5px;
 	height: 250px;
+	overflow: hidden;
+	position: relative;
 
+}
+
+#team .window {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 15%;
+	bottom: 0;
+	background: red;
+	transition: 0.5s ease-in-out;
+
+}
+
+#team .window .quote {
+	margin: 30px;
+	display: block;
+	position: absolute;
+	top: 50px;
+	text-align: center;
+
+}
+
+#team .window1 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 15%;
+	bottom: 0;
+	background: red;
+	transition: 0.5s ease-in-out;
+
+}
+
+#team .window1 .quote {
+	margin: 30px;
+	display: block;
+	position: absolute;
+	top: 50px;
+	text-align: center;
+}
+
+#team .window2 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 15%;
+	bottom: 0;
+	background: red;
+	transition: 0.5s ease-in-out;
+
+}
+
+#team .window2 .quote {
+	margin: 30px;
+	display: block;
+	position: absolute;
+	top: 50px;
+	text-align: center;
+}
+
+#team .window3 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 15%;
+	bottom: 0;
+	background: red;
+	transition: 0.5s ease-in-out;
+
+}
+
+#team .window3 .quote {
+	margin: 30px;
+	display: block;
+	position: absolute;
+	top: 50px;
+	text-align: center;
+}
+
+#team .window4 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 15%;
+	bottom: 0;
+	background: red;
+	transition: 0.5s ease-in-out;
+
+}
+
+#team .window4 .quote {
+	margin: 30px;
+	display: block;
+	position: absolute;
+	top: 50px;
+	text-align: center;
+}
+
+#team .window5 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 15%;
+	bottom: 0;
+	background: red;
+	transition: 0.5s ease-in-out;
+
+}
+
+#team .window5 .quote {
+	margin: 30px;
+	display: block;
+	position: absolute;
+	top: 50px;
+	text-align: center;
+}
+
+#team .window6 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 15%;
+	bottom: 0;
+	background: red;
+	transition: 0.5s ease-in-out;
+
+}
+
+#team .window6 .quote {
+	margin: 30px;
+	display: block;
+	position: absolute;
+	top: 50px;
+	text-align: center;
+}
+
+#team .window7 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 15%;
+	bottom: 0;
+	background: red;
+	transition: 0.5s ease-in-out;
+
+}
+
+#team .window7 .quote {
+	margin: 30px;
+	display: block;
+	position: absolute;
+	top: 50px;
+	text-align: center;
+}
+
+#team .window8 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 15%;
+	bottom: 0;
+	background: red;
+	transition: 0.5s ease-in-out;
+
+}
+
+#team .window8 .quote {
+	margin: 30px;
+	display: block;
+	position: absolute;
+	top: 50px;
+	text-align: center;
 }
 
 #team .title {
@@ -52,27 +326,50 @@ body {
 	text-align: center;
 }
 
+#team .button_up {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background-color: #ddd;
+	position: absolute;
+	left:50%;
+	top: -25px;
+	transform: translate(-25px, 0);
+	cursor: pointer;
+
+}
+
+
+#team i {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 9px;
+    margin-top: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+#team .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    transition: 0.5s ease-in-out;
+}
 
 
 /* ---------------------- WORKS -----------------------*/
 #works {
 	position: relative;
 }
-#works .mainContainer {
+#works .main_container {
 	position: absolute;
 	left: 0;
 	right: 0;
-	background: #667db6;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-color: #bcf6ff;
 	margin-top: 20px;
-	background-size: 600%;
-	background-position: 0 0;
-	box-shadow: inset 0 0 5em rgba(0,0,0,.5);
-	background-repeat: repeat-x;
 }
 #works .box {
 	width: 100%;
+	height: 100px;
 	background-color: black;
 	margin: 0 auto;
 	margin-top: 30px;
@@ -88,7 +385,7 @@ body {
 	height: 80px;
 }
 .form-group {
-	margin-top: 30px;
+	margin-top: 35px;
 }
 .center_works {
 	text-align: center;
@@ -119,17 +416,25 @@ label {
 	margin-top: 20px;
 	position: relative;
 	transition: all 900ms cubic-bezier(0, 0, 0.2, 1);
-	overflow: hidden;
+	background: url(https://cdn.dribbble.com/users/60166/screenshots/931826/the_land_contour.jpg);
 }
+
 .video {
 	height: 300px;
 	width: 100%;
 	background-color: #000000;
 	margin-top: 20px;
 	position: relative;
-	transition: all 900ms cubic-bezier(0, 0, 0.2, 1);
-	overflow: hidden;
+  	background: url(https://cdn.dribbble.com/users/60166/screenshots/931826/the_land_contour.jpg);
 }
+
+.image {
+  background-image: url(https://cdn.dribbble.com/users/60166/screenshots/931826/the_land_contour.jpg);
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
 .web {
 	height: 300px;
 	width: 100%;
@@ -137,7 +442,7 @@ label {
 	margin-top: 20px;
 	position: relative;
 	transition: all 900ms cubic-bezier(0, 0, 0.2, 1);
-	overflow: hidden;
+	background: url(https://cdn.dribbble.com/users/60166/screenshots/931826/the_land_contour.jpg);
 }
 .interaction {
 	height: 300px;
@@ -146,26 +451,37 @@ label {
 	margin-top: 20px;
 	position: relative;
 	transition: all 900ms cubic-bezier(0, 0, 0.2, 1);
-	overflow: hidden;
 }
 .project {
-	margin: 0;
+	text-align: center;
+	font-family: Futura;
+	font-size: 40pt;
+	color: white;
+	line-height: 5.5;
+	height: 20px;
 }
 .subject {
 	margin: 0;
 }
 .description {
-  background-color: red;
+  width: 100%;
   height: 300px;
-  width: 101%;
   opacity: 0;
+  transition: all 900ms cubic-bezier(0, 0, 0.2, 1);
+  background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 }
+
 .space {
 	height: 0;
 	width: 100%;
-	margin-top: 30px;
+	margin-top: 200px;
 }
-
+.down {
+	background-color: #FFFFFF;
+}
 @media screen and (max-width: 992px) {
 	
 }
