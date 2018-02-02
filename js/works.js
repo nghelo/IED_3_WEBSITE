@@ -11,7 +11,7 @@ $(function() {
         if (innerWidth < 992) {
           $(".down").css("transform","translate(0px, 0px)");
           $(".plus").css("transform","translate(0px, 0px)");
-          console.log(innerWidth);
+         
         } else {
           $(".down").css("transform","translate(0px, -320px)");
           $(".plus").css("transform","translate(390px, -640px)");
