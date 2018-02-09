@@ -33,27 +33,27 @@
 		<div class="container">
 			<div class="row">
 			 <div class="col-md-4">
-		 	  <div class="video">
+		 	  <div class="video img1">
 		 	  	<div class="description">
-		 	  		<h2 class="project">ciioaoao</h2>
+		 	  		<h2 class="project">Logo Design</h2>
 		 	  		<h3 class="subject"></h3>
 		 	  	</div>
 		 	  	<div class="photo"></div>
 		 	  </div>			
 			 </div>
 			 <div class="col-md-4">
-			  <div class="graphic">
+			  <div class="graphic img2">
 			  	<div class="description">
-			  		<h2 class="project"></h2>
+			  		<h2 class="project">UI</h2>
 		 	  		<h3 class="subject"></h3>
 			  	</div>
 		 	  	<div class="photo"></div>
 			  </div>		
 			 </div>
 			 <div class="col-md-4">
-		  	<div class="graphic">
+		  	<div class="graphic img3">
 		  		<div class="description">
-		  			<h2 class="project"></h2>
+		  			<h2 class="project">UX</h2>
 		 	  		<h3 class="subject"></h3>
 		  		</div>
 		 	  	<div class="photo"></div>
@@ -62,27 +62,27 @@
 		  </div>
 		  <div class="row">
 				<div class="col-md-4">
-					<div class="graphic down">
+					<div class="graphic down img4">
 						<div class="description">
-							<h2 class="project"></h2>
+							<h2 class="project">Brand Identity</h2>
 		 	  		<h3 class="subject"></h3>
 						</div>
 		 	  	  <div class="photo"></div>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="video prime">
+					<div class="video prime img5">
 						<div class="description">
-							<h2 class="project"></h2>
+							<h2 class="project">Motion Graphic</h2>
 		 	  		  <h3 class="subject"></h3>
 						</div>
 		 	  	  <div class="photo"></div>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="web">
+					<div class="web img6">
 						<div class="description">
-							<h2 class="project"></h2>
+							<h2 class="project">Illustration</h2>
 		 	  			<h3 class="subject"></h3>
 						</div>
 		 	  	  <div class="photo"></div> 
@@ -91,27 +91,27 @@
 			</div>
 			<div class="row">
 				<div class="col-md-4">
-					<div class="graphic down">
+					<div class="graphic down img7">
 						<div class="description">
-							<h2 class="project"></h2>
+							<h2 class="project">Web & App</h2>
 		 	  		<h3 class="subject"></h3>
 						</div>
 		 	  	  <div class="photo"></div>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="interaction">
+					<div class="interaction img8">
 						<div class="description">
-							<h2 class="project"></h2>
+							<h2 class="project">Unity</h2>
 		 	  		  <h3 class="subject"></h3>
 						</div>
 		 	  	  <div class="photo"></div>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="web one">
+					<div class="web one img9">
 						<div class="description">
-							<h2 class="project"></h2>
+							<h2 class="project">Game Design</h2>
 		 	  			<h3 class="subject"></h3>
 						</div>
 		 	  	  <div class="photo"></div> 
@@ -120,27 +120,27 @@
 			</div>
 			<div class="row">
 				<div class="col-md-4">
-					<div class="graphic down plus">
+					<div class="graphic down plus img10">
 						<div class="description">
-							<h2 class="project"></h2>
+							<h2 class="project">Character Design</h2>
 		 	  		<h3 class="subject"></h3>
 						</div>
 		 	  	  <div class="photo"></div>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="interaction first">
+					<div class="interaction first img11">
 						<div class="description">
-							<h2 class="project"></h2>
+							<h2 class="project">CGI</h2>
 		 	  		  <h3 class="subject"></h3>
 						</div>
 		 	  	  <div class="photo"></div>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="web two">
+					<div class="web two img12">
 						<div class="description">
-							<h2 class="project"></h2>
+							<h2 class="project">VR & AR</h2>
 		 	  			<h3 class="subject"></h3>
 						</div>
 		 	  	  <div class="photo"></div> 

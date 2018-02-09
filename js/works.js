@@ -163,16 +163,17 @@ $(function() {
        loop();
     }
   });
-  
+
   $(".description").click(function() {
-    if ($(this).css('opacity') == 0.7) {
+    if ($(this).css('opacity') == 1) {
       $(this).css('opacity','0');
     } else {
       $(".description").css('opacity','0');
-        $(this).css('opacity','0.7');
+        $(this).css('opacity','1');
     }
   });
 
+ 
   $(window).resize(function() {
     if (innerWidth < 992) {
       $(".down").css("transform","translate(0px, 0px)");
