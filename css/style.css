@@ -4,7 +4,37 @@ body {
 
 
 /* ---------------------- HEADER ----------------------*/
-
+#header .bottone_simone {
+	background-color: #a51d1d;
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	position: relative;
+	display: block;
+	margin: auto;
+	top: 90%;
+}
+#header .riquadro_scroll {
+	background-image: url(../images/sfondo.png);
+	height: 700px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+#header .scroll_container {
+	background-image: url(../images/esempio.png);
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+@media only screen and (max-device- width: 1366px) {
+	#header .scroll_container {
+		background-attachment: scroll;
+		}
+	}
 
 
 /* ----------------------- MENU -----------------------*/
