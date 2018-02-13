@@ -39,8 +39,17 @@ $(document).ready(function(){
     var numero = $(this).attr("id");
     $("#team .foto_" + numero).css("display","block");
 
+    if ($("#team .foto_" + numero).css("display","block")){
+      $("#team .foto_" + numero).children().click(function(){
+          $("#team .foto_" + numero).css("display","none");
+      
+      });
+    }
+
 
   });
+
+
 
 
 

@@ -19,7 +19,9 @@
 	  					<i class="arrow up"></i>
 	  				</div>
 
-	  				<div class="foto foto_1"></div>
+	  				<div class="foto foto_1">
+	  					<div class="button_close">x</div>
+	  				</div>
 
 	  				<button id="1" class="button_photo">
 	  				Foto
@@ -38,6 +40,16 @@
 	  				<div class="button_up">
 	  				<i class="arrow up"></i>
 	  				</div>
+
+	  				<div class="foto foto_2">
+	  					<div class="button_close">x</div>
+	  				</div>
+
+	  				<button id="2" class="button_photo">
+	  				Foto
+	  				</button>
+
+
 	  			</div>
 
 	  		</div>
@@ -49,6 +61,15 @@
 	  				<div class="button_up">
 	  				<i class="arrow up"></i>
 	  				</div>
+
+	  				<div class="foto foto_3">
+	  					<div class="button_close">x</div>
+	  				</div>
+
+	  				<button id="3" class="button_photo">
+	  				Foto
+	  				</button>
+
 	  			</div>
 
 	  		</div>
@@ -61,6 +82,13 @@
 	  				<div class="button_up">
 	  				<i class="arrow up"></i>
 	  				</div>
+	  				<div class="foto foto_4">
+	  					<div class="button_close">x</div>
+	  				</div>
+
+	  				<button id="4" class="button_photo">
+	  				Foto
+	  				</button>
 	  			</div>
 
 	  		</div>
@@ -73,6 +101,13 @@
 	  				<div class="button_up">
 	  				<i class="arrow up"></i>
 	  				</div>
+	  				<div class="foto foto_5">
+	  					<div class="button_close">x</div>
+	  				</div>
+
+	  				<button id="5" class="button_photo">
+	  				Foto
+	  				</button>
 	  			</div>
 
 	  		</div>
@@ -85,6 +120,13 @@
 	  				<div class="button_up">
 	  				<i class="arrow up"></i>
 	  				</div>
+	  				<div class="foto foto_6">
+	  					<div class="button_close">x</div>
+	  				</div>
+
+	  				<button id="6" class="button_photo">
+	  				Foto
+	  				</button>
 	  			</div>
 
 
@@ -98,6 +140,13 @@
 	  				<div class="button_up">
 	  				<i class="arrow up"></i>
 	  				</div>
+	  				<div class="foto foto_7">
+	  					<div class="button_close">x</div>
+	  				</div>
+
+	  				<button id="7" class="button_photo">
+	  				Foto
+	  				</button>
 	  			</div>
 
 	  		</div>
@@ -110,6 +159,13 @@
 	  				<div class="button_up">
 	  				<i class="arrow up"></i>
 	  				</div>
+	  				<div class="foto foto_8">
+	  					<div class="button_close">x</div>
+	  				</div>
+
+	  				<button id="8" class="button_photo">
+	  				Foto
+	  				</button>
 	  			</div>
 
 	  		</div>
@@ -123,6 +179,13 @@
 	  				<div class="button_up">
 	  				<i class="arrow up"></i>
 	  				</div>
+	  				<div class="foto foto_9">
+	  					<div class="button_close">x</div>
+	  				</div>
+
+	  				<button id="9" class="button_photo">
+	  				Foto
+	  				</button>
 	  			</div>
 
 	  		</div>

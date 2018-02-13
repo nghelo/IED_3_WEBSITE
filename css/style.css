@@ -411,6 +411,15 @@ body {
     display: none;
 }
 
+#team .button_close {
+
+	width: 20px;
+	height: 20px;
+	background: white;
+	border-radius: 20px;
+	line-height: 18px;
+	font-family: helvetica;
+}
 
 
 
