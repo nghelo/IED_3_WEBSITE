@@ -7,7 +7,9 @@
 
 
 		<div class="owl-carousel">
-	  		<div class="element"> Lorenzo Antista 
+	  		<div class="element"> 
+
+	  		Lorenzo Antista 
 
 	  			<div class="window">
 
@@ -16,9 +18,14 @@
 	  				<div class="button_up">
 	  					<i class="arrow up"></i>
 	  				</div>
+
+	  				<button class="button_photo">
+	  				</button>
+
 	  			</div>
 
 	  		</div>
+
 	  		<div class="element"> Rosario Antonio Calabruso
 
 	  		<div class="window">

@@ -36,6 +36,9 @@
 
         <!-- Owl Carousel script -->
         <script src="libraries/OwlCarousel2-2.2.1/dist/owl.carousel.min.js"></script>
+		
+		<!-- Scroll-master script -->
+		 <script src="libraries/scrollme-master/jquery.scrollme.min.js"></script>
 
         <script src="js/header.js"></script>
         <script src="js/menu.js"></script>
