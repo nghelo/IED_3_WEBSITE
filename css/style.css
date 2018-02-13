@@ -402,6 +402,7 @@ body {
 	background-position: 0 0;
 	box-shadow: inset 0 0 5em rgba(0,0,0,.5);
 	background-repeat: repeat-x;
+	height: 1532px;
 }
 #works .box {
 	width: 100%;
@@ -510,6 +511,12 @@ label {
 		font-size: 60px;
 		text-align: center;
     }
+}
+@media screen and (max-width: 991px) {
+	#works .mainContainer {
+		height: 4139px;
+	}
+
 }
 
 
