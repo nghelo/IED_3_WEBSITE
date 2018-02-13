@@ -22,7 +22,7 @@
 									<input type="radio" name="subject" id="interaction" value="interactions">Interaction Design
 								</label>
 								<label for="subj4">
-									<input type="radio" name="subject" id="All" value="alls">All
+									<input checked type="radio" name="subject" id="All" value="alls">All
 								</label>
 							</div>
 						</div>
@@ -148,8 +148,8 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="space"><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
+				<div class="space">
+					<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 				</div>
 			</div>
 		</div>
