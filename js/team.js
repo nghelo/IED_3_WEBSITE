@@ -49,77 +49,7 @@ $(document).ready(function(){
 
   });
 
-$("#team .skill").click(function() {
-    $("#team .progressBarFill").css("width", "100%");
-  });
 
-   $("#team .skill1").click(function() {
-    $("#team .progressBarFill1").css("width", "80%");
-  });
-
-    $("#team .skill2").click(function() {
-    $("#team .progressBarFill2").css("width", "90%");
-  });
-
-    $("#team .skill3").click(function() {
-    $("#team .progressBarFill3").css("width", "60%");
-  });
-
-    $("#team .skill4").click(function() {
-    $("#team .progressBarFill4").css("width", "90%");
-  });
-
-    $("#team .skill5").click(function() {
-    $("#team .progressBarFill5").css("width", "80%");
-  });
-
-    $("#team .skill6").click(function() {
-    $("#team .progressBarFill6").css("width", "90%");
-  });
-
-    $("#team .skill7").click(function() {
-    $("#team .progressBarFill7").css("width", "100%");
-  });
-
-    $("#team .skill8").click(function() {
-    $("#team .progressBarFill8").css("width", "80%");
-  });
-
-    $("#team .reset").click(function() {
-    $("#team .progressBarFill").css("width", "0");
-  });
-
-    $("#team .reset1").click(function() {
-    $("#team .progressBarFill1").css("width", "0");
-  });
-
-    $("#team .reset2").click(function() {
-    $("#team .progressBarFill2").css("width", "0");
-  });
-
-    $("#team .reset3").click(function() {
-    $("#team .progressBarFill3").css("width", "0");
-  });
-
-    $("#team .reset4").click(function() {
-    $("#team .progressBarFill4").css("width", "0");
-  });
-
-    $("#team .reset5").click(function() {
-    $("#team .progressBarFill5").css("width", "0");
-  });
-
-    $("#team .reset6").click(function() {
-    $("#team .progressBarFill6").css("width", "0");
-  });
-
-    $("#team .reset7").click(function() {
-    $("#team .progressBarFill7").css("width", "0");
-  });
-
-    $("#team .reset8").click(function() {
-    $("#team .progressBarFill8").css("width", "0");
-  });
 
 
 
