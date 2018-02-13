@@ -682,7 +682,7 @@ label {
 }
 
 .space {
-	height: 0;
+	height: 0px;
 	width: 100%;
 	margin-top: 30px;
 }
@@ -697,6 +697,24 @@ label {
 @media screen and (max-width: 991px) {
 	#works .mainContainer {
 		height: 4139px;
+	}
+
+}
+@media screen and (max-width: 425px) {
+	#works .mainContainer {
+		height: 4200px;
+	}
+
+}
+@media screen and (max-width: 465px) {
+	#works .mainContainer {
+		height: 4200px;
+	}
+
+}
+@media screen and (max-width: 375px) {
+	#works .mainContainer {
+		height: 4240px;
 	}
 
 }
@@ -808,7 +826,7 @@ label {
 	background-size: cover;
 	border-radius: 12px;
 	background-position: 47%;
-
+    }
 }
 
 .img2 {
@@ -902,6 +920,7 @@ label {
 	background-size: cover;
 	border-radius: 12px;
 	background-position: 47%;
+    }
 
 }
 
@@ -982,7 +1001,7 @@ label {
 	border-radius: 12px;
 	background-position: 47%;
 }
-}
+
 
 
 
@@ -1025,8 +1044,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8737f', end
 }
 
 #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover
-
+    background-color: #555;
+}
 
 /* --------------------- CONTACTS ---------------------*/
 
