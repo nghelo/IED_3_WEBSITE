@@ -178,10 +178,10 @@ body {
 	padding: 42px;
     padding-top: 105px;
     text-align: center;
-    background: #c4e5f0;
+    background: #37AAB4;
     border-radius: 2px;
     margin: 5px;
-    height: 250px;
+    height: 380px;
     overflow: hidden;
     position: relative;
     font-size: 17px;
@@ -195,7 +195,7 @@ body {
 	right: 0;
 	height: 15%;
 	bottom: 0;
-	background: red;
+	background: #B20000;
 	transition: 0.5s ease-in-out;
 
 }
@@ -215,7 +215,7 @@ body {
 	right: 0;
 	height: 15%;
 	bottom: 0;
-	background: red;
+	background: #B20000;
 	transition: 0.5s ease-in-out;
 
 }
@@ -234,7 +234,7 @@ body {
 	right: 0;
 	height: 15%;
 	bottom: 0;
-	background: red;
+	background: #B20000;
 	transition: 0.5s ease-in-out;
 
 }
@@ -253,7 +253,7 @@ body {
 	right: 0;
 	height: 15%;
 	bottom: 0;
-	background: red;
+	background: #B20000;
 	transition: 0.5s ease-in-out;
 
 }
@@ -272,7 +272,7 @@ body {
 	right: 0;
 	height: 15%;
 	bottom: 0;
-	background: red;
+	background: #B20000;
 	transition: 0.5s ease-in-out;
 
 }
@@ -291,7 +291,7 @@ body {
 	right: 0;
 	height: 15%;
 	bottom: 0;
-	background: red;
+	background: #B20000;
 	transition: 0.5s ease-in-out;
 
 }
@@ -310,7 +310,7 @@ body {
 	right: 0;
 	height: 15%;
 	bottom: 0;
-	background: red;
+	background: #B20000;
 	transition: 0.5s ease-in-out;
 
 }
@@ -329,7 +329,7 @@ body {
 	right: 0;
 	height: 15%;
 	bottom: 0;
-	background: red;
+	background: #B20000;
 	transition: 0.5s ease-in-out;
 
 }
@@ -348,7 +348,7 @@ body {
 	right: 0;
 	height: 15%;
 	bottom: 0;
-	background: red;
+	background: #B20000;
 	transition: 0.5s ease-in-out;
 
 }
@@ -445,6 +445,131 @@ body {
 	margin-top: 100px;
 }
 
+#team .myProgress, .myProgress1, .myProgress2, 
+      .myProgress3, .myProgress4, .myProgress5, 
+      .myProgress6, .myProgress7, .myProgress8 {
+	width:  200px;
+	margin-left: 9px;
+	position: relative;
+}
+
+#team .myBar, .myBar1, .myBar2, .myBar3, .myBar4, 
+      .myBar5, .myBar6, .myBar7, .myBar8 {
+	width: 100%;
+	background-color: #e0e0e0;
+	padding: 3px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+#team .progressBarFill, .progressBarFill1, .progressBarFill2, 
+      .progressBarFill3, .progressBarFill4, .progressBarFill5, 
+      .progressBarFill6, .progressBarFill7, .progressBarFill8 {
+	height: 22px;
+	display: block;
+	background-color: #37AAB4;
+	border-radius: 3px;
+	width: 0;
+	transition: 0.5s ease-in-out;
+}
+
+#team .skill, .skill1, .skill2, .skill3, .skill4, 
+      .skill5, .skill6, .skill7, .skill8 {
+	margin-left: 129px;
+    border-radius: 3px;
+    background: #e0e0e0;
+    border: 1px solid white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    bottom: 29px;
+    font-size: 14px;
+}
+
+#team .reset, .reset1, .reset2, .reset3, .reset4, 
+      .reset5, .reset6, .reset7, .reset8 {
+	margin-left: 285px;
+    border-radius: 3px;
+    background: #e0e0e0;
+    border: 1px solid white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    bottom: 55px;
+    font-size: 14px;
+}
+
+#team .scritta, .scritta1, .scritta2, .scritta3, .scritta4, 
+      .scritta5, .scritta6, .scritta7, .scritta8 {
+	padding-top: 40px;
+}
+
+
+@media screen and (max-width: 768px) {
+	#team .myProgress, .myProgress1, .myProgress2, 
+          .myProgress3, .myProgress4, .myProgress5, 
+          .myProgress6, .myProgress7, .myProgress8 {
+    width: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+	#team .scritta, .scritta1, .scritta2, .scritta3, .scritta4, 
+          .scritta5, .scritta6, .scritta7, .scritta8 {
+    padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+	#team .skill, .skill1, .skill2, .skill3, .skill4, 
+          .skill5, .skill6, .skill7, .skill8 {
+    margin: 31px;
+    margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+	#team .reset, .reset1, .reset2, .reset3, .reset4, 
+          .reset5, .reset6, .reset7, .reset8 {
+    margin: 0;
+    margin-left: -13px;
+    bottom: 50px;
+    }
+}
+
+
+
+@media screen and (max-width: 1150px) {
+	#team .myProgress, .myProgress1, .myProgress2, 
+          .myProgress3, .myProgress4, .myProgress5, 
+          .myProgress6, .myProgress7, .myProgress8 {
+    width: 200px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+	#team .scritta, .scritta1, .scritta2, .scritta3, .scritta4, 
+          .scritta5, .scritta6, .scritta7, .scritta8 {
+    padding: 0;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+	#team .skill, .skill1, .skill2, .skill3, .skill4, 
+          .skill5, .skill6, .skill7, .skill8 {
+    margin: 31px;
+    margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+	#team .reset, .reset1, .reset2, .reset3, .reset4, 
+          .reset5, .reset6, .reset7, .reset8 {
+    margin: 0;
+    margin-left: -25px;
+    bottom: 29px;
+    }
+}
 
 
 /* ---------------------- WORKS -----------------------*/
