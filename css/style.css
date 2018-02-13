@@ -4,7 +4,37 @@ body {
 
 
 /* ---------------------- HEADER ----------------------*/
-
+#header .bottone_simone {
+	background-color: #a51d1d;
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	position: relative;
+	display: block;
+	margin: auto;
+	top: 90%;
+}
+#header .riquadro_scroll {
+	background-image: url(../images/sfondo.png);
+	height: 700px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+#header .scroll_container {
+	background-image: url(../images/esempio.png);
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+@media only screen and (max-device- width: 1366px) {
+	#header .scroll_container {
+		background-attachment: scroll;
+		}
+	}
 
 
 /* ----------------------- MENU -----------------------*/
@@ -145,6 +175,17 @@ body {
 	height: 250px;
 	overflow: hidden;
 	position: relative;
+	padding: 42px;
+    padding-top: 105px;
+    text-align: center;
+    background: #c4e5f0;
+    border-radius: 2px;
+    margin: 5px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    font-size: 17px;
+    text-transform: uppercase;
 
 }
 
@@ -355,6 +396,56 @@ body {
     transition: 0.5s ease-in-out;
 }
 
+#team .button_photo {
+
+	    margin-top: 150px;
+	margin-top: 150px;
+    padding: 5px 20px;
+    border-radius: 2px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+
+}
+
+#team .foto {
+
+	    width: 100px;
+	width: 100px;
+    height: 100px;
+    background: black;
+    position: absolute;
+    left: 50%;
+    top: 40px;
+    transform: translate(-50px, 0);
+    display: none;
+}
+
+#team .button_close {
+
+	width: 20px;
+	height: 20px;
+	background: white;
+	border-radius: 20px;
+	line-height: 18px;
+	font-family: helvetica;
+}
+
+#team .box_image {
+	background-image: url('https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+	height: 500px;
+	width: 100%;
+	margin-top: 100px;
+}
+
+
 
 /* ---------------------- WORKS -----------------------*/
 #works {
@@ -372,10 +463,11 @@ body {
 	background-position: 0 0;
 	box-shadow: inset 0 0 5em rgba(0,0,0,.5);
 	background-repeat: repeat-x;
+	height: 1532px;
 }
 #works .box {
 	width: 100%;
-	background-color: black;
+	background-color: #55a6b2;
 	margin: 0 auto;
 	margin-top: 30px;
 }
@@ -397,15 +489,13 @@ body {
 }
 label {
 	font-size: 30px;
-	color: #55a6b2;
+	color: #fff;
 }
 #graphic {
 	margin: 0 10px;
 }
 #video {
 	margin: 0 10px;
-	background-image: url();
-
 }
 #web {
 	margin: 0 10px;
@@ -419,17 +509,16 @@ label {
 .graphic {
 	height: 300px;
 	width: 100%;
-	background-color: #000000;
+	background-color: blue;
 	margin-top: 20px;
 	position: relative;
 	transition: all 900ms cubic-bezier(0, 0, 0.2, 1);
 	overflow: hidden;
-	border-radius: 12px;	
 }
 .video {
 	height: 300px;
 	width: 100%;
-	background-color: #000000;
+	background-color: red;
 	margin-top: 20px;
 	position: relative;
 	transition: all 900ms cubic-bezier(0, 0, 0.2, 1);
@@ -438,7 +527,7 @@ label {
 .web {
 	height: 300px;
 	width: 100%;
-	background-color: #000000;
+	background-color: green;
 	margin-top: 20px;
 	position: relative;
 	transition: all 900ms cubic-bezier(0, 0, 0.2, 1);
@@ -447,7 +536,7 @@ label {
 .interaction {
 	height: 300px;
 	width: 100%;
-	background-color: #000000;
+	background-color: brown;
 	margin-top: 20px;
 	position: relative;
 	transition: all 900ms cubic-bezier(0, 0, 0.2, 1);
@@ -455,337 +544,39 @@ label {
 }
 .project {
 	margin: 0;
-	text-align: center;
-	font-family: Roboto;
-	font-size: 38pt;
-	color: white;
-	line-height: 5.5;
-	height: 20px;
 }
 .subject {
 	margin: 0;
-}
-.description {
-  background-color: red;
-  height: 300px;
-  width: 101%;
-  opacity: 0;
-  border-radius: 12px;
 }
 .space {
 	height: 0;
 	width: 100%;
 	margin-top: 30px;
 }
-.img1 {
-	background: url(https://cdn.dribbble.com/users/31664/screenshots/1525046/cub-studio-logos-retime-2.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 25%;
-
-}
-
-.img2 {
-	background: url(https://cdn.dribbble.com/users/747415/screenshots/2927405/conversable.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 25%;
-
-}
-
-.img3 {
-	background: url(https://cdn.dribbble.com/users/4874/screenshots/2705151/dribbble-50-nodither.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 25%;
-}
-
-.img4 {
-	background: url(https://cdn.dribbble.com/users/107759/screenshots/4204031/spaced-lol.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 25%;
-}
-
-.img5 {
-	background: url(https://cdn.dribbble.com/users/285475/screenshots/1418440/twisted.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 25%;
-}
-
-.img6 {
-	background: url(https://cdn.dribbble.com/users/5031/screenshots/2035500/latenightx.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 25%;
-}
-
-.img7 {
-	background: url(https://cdn.dribbble.com/users/787686/screenshots/2675012/sludinajums.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 25%;
-}
-
-.img8 {
-	background: url(https://cdn.dribbble.com/users/288987/screenshots/2144347/16-10.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 25%;
-}
-
-.img9 {
-	background: url(https://cdn.dribbble.com/users/5031/screenshots/2055672/mikaelgustafssondrb2.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 25%;
-}
-
-.img10 {
-	background: url(https://cdn.dribbble.com/users/285475/screenshots/2106950/kick_push_dribbble.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 25%;
-}
-
-.img11 {
-	background: url(https://cdn.dribbble.com/users/236204/screenshots/1798526/candy_final.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 25%;
-}
-
-.img12 {
-	background: url(https://cdn.dribbble.com/users/32512/screenshots/4130100/airbus_app__ios11_design_by_gleb.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 25%;
-}
-
-@media screen and (max-width: 1199px) {
-
-	.img2 {
-	background: url(https://cdn.dribbble.com/users/747415/screenshots/2927405/conversable.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 47%;
-
-	}
-
-}
-
-
-@media screen and (max-width: 1024px) {
-	
-
-	.img1 {
-	background: url(https://cdn.dribbble.com/users/31664/screenshots/1525046/cub-studio-logos-retime-2.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 47%;
-
-}
-
-.img2 {
-	background: url(https://cdn.dribbble.com/users/747415/screenshots/2927405/conversable.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 47%;
-
-}
-
-.img3 {
-	background: url(https://cdn.dribbble.com/users/4874/screenshots/2705151/dribbble-50-nodither.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 47%;
-}
-
-.img4 {
-	background: url(https://cdn.dribbble.com/users/107759/screenshots/4204031/spaced-lol.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 47%;
-}
-
-.img5 {
-	background: url(https://cdn.dribbble.com/users/285475/screenshots/1418440/twisted.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 47%;
-}
-
-.img6 {
-	background: url(https://cdn.dribbble.com/users/5031/screenshots/2035500/latenightx.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 47%;
-}
-
-.img7 {
-	background: url(https://cdn.dribbble.com/users/787686/screenshots/2675012/sludinajums.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 47%;
-}
-
-.img8 {
-	background: url(https://cdn.dribbble.com/users/288987/screenshots/2144347/16-10.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 47%;
-}
-
-.img9 {
-	background: url(https://cdn.dribbble.com/users/5031/screenshots/2055672/mikaelgustafssondrb2.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 47%;
-}
-
-.img10 {
-	background: url(https://cdn.dribbble.com/users/285475/screenshots/2106950/kick_push_dribbble.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 47%;
-}
-
-.img11 {
-	background: url(https://cdn.dribbble.com/users/236204/screenshots/1798526/candy_final.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 47%;
-}
-
-.img12 {
-	background: url(https://cdn.dribbble.com/users/32512/screenshots/4130100/airbus_app__ios11_design_by_gleb.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 47%;
-}
-
-}
-
-@media screen and (max-width: 768px) {
-	
-}
-
-@media screen and (max-width: 640px) {
-	
-}
-
-@media screen and (max-width: 320px) {
-	
-	.img1 {
-	background: url(https://cdn.dribbble.com/users/31664/screenshots/1525046/cub-studio-logos-retime-2.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 47%;
-
-}
-
-.img2 {
-	background: url(https://cdn.dribbble.com/users/747415/screenshots/2927405/conversable.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 47%;
-
-}
-
-.img3 {
-	background: url(https://cdn.dribbble.com/users/4874/screenshots/2705151/dribbble-50-nodither.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 47%;
-}
-
-.img4 {
-	background: url(https://cdn.dribbble.com/users/107759/screenshots/4204031/spaced-lol.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 47%;
-}
-
-.img5 {
-	background: url(https://cdn.dribbble.com/users/285475/screenshots/1418440/twisted.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 47%;
-}
-
-.img6 {
-	background: url(https://cdn.dribbble.com/users/5031/screenshots/2035500/latenightx.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 47%;
-}
-
-.img7 {
-	background: url(https://cdn.dribbble.com/users/787686/screenshots/2675012/sludinajums.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 47%;
-}
-
-.img8 {
-	background: url(https://cdn.dribbble.com/users/288987/screenshots/2144347/16-10.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 47%;
-}
-
-.img9 {
-	background: url(https://cdn.dribbble.com/users/5031/screenshots/2055672/mikaelgustafssondrb2.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 47%;
-}
-
-.img10 {
-	background: url(https://cdn.dribbble.com/users/285475/screenshots/2106950/kick_push_dribbble.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 47%;
-}
-
-.img11 {
-	background: url(https://cdn.dribbble.com/users/236204/screenshots/1798526/candy_final.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 47%;
-}
-
-.img12 {
-	background: url(https://cdn.dribbble.com/users/32512/screenshots/4130100/airbus_app__ios11_design_by_gleb.gif);
-	background-size: cover;
-	border-radius: 12px;
-	background-position: 47%;
-}
-}
-
-
-
-
-
-
 .description {
   width: 100%;
   height: 300px;
+  color: #FFFFFF;
   opacity: 0;
-  border-radius: 12px;
-  /*
   transition: all 900ms cubic-bezier(0, 0, 0.2, 1);
-  background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
-  background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
-  background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); 
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); 
-  */
-  transition: all 900ms cubic-bezier(0, 0, 0.2, 1);
-  background: -moz-linear-gradient(top, rgba(216,115,127,1) 0%, rgba(216,115,127,1) 44%, rgba(216,115,127,0) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, rgba(216,115,127,1) 0%,rgba(216,115,127,1) 44%,rgba(216,115,127,0) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, rgba(216,115,127,1) 0%,rgba(216,115,127,1) 44%,rgba(216,115,127,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8737f', endColorstr='#00d8737f',GradientType=0 ); /* IE6-9 */
+  background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+
+@media screen and (max-width: 768px) {
+	#works .title {
+		font-weight: 20;
+		font-size: 60px;
+		text-align: center;
+    }
+}
+@media screen and (max-width: 991px) {
+	#works .mainContainer {
+		height: 4139px;
+	}
 
 }
 

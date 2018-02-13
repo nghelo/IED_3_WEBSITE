@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+
   $(".owl-carousel").owlCarousel();
 
 
@@ -28,6 +30,27 @@ $(document).ready(function(){
 		}
 
 	});
+
+
+  $("#team .button_photo").click(function(){
+
+    console.log("click!");
+
+    var numero = $(this).attr("id");
+    $("#team .foto_" + numero).css("display","block");
+
+    if ($("#team .foto_" + numero).css("display","block")){
+      $("#team .foto_" + numero).children().click(function(){
+          $("#team .foto_" + numero).css("display","none");
+      
+      });
+    }
+
+
+  });
+
+
+
 
 
 });
