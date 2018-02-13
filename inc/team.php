@@ -275,6 +275,7 @@
                   </div>
 
                   <button class="skill8">Skill</button>
+                  <button class="reset8">Reset</button>
 	  			</div>
 
 	  		</div>
