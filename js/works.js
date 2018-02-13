@@ -140,11 +140,11 @@ $(function() {
     if (innerWidth < 992) {
       positionOriginal();
     } else if (innerWidth >= 992 && check == false) {
-      $(".plus").css("transform","translate(390px,-640px)");
       $(".web, .video, .interaction").css("transform","translate(0px, 0px)");
       $(".two").css("transform","translate(-780px, -640px)");
       $(".prime, .down").css("transform","translate(0px, -320px)");
       $(".first, .one").css("transform","translate(-390px, -320px)");
+      $(".plus").css("transform","translate(390px,-640px)");
     }
     if(innerWidth >= 992 && innerWidth < 1200 && check == false) {
     	$(".plus").css("transform","translate(323px,-640px)");
