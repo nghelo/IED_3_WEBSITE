@@ -175,6 +175,17 @@ body {
 	height: 250px;
 	overflow: hidden;
 	position: relative;
+	padding: 42px;
+    padding-top: 105px;
+    text-align: center;
+    background: #c4e5f0;
+    border-radius: 2px;
+    margin: 5px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    font-size: 17px;
+    text-transform: uppercase;
 
 }
 
@@ -388,6 +399,7 @@ body {
 #team .button_photo {
 
 	    margin-top: 150px;
+	margin-top: 150px;
     padding: 5px 20px;
     border-radius: 2px;
     background: none;
@@ -402,6 +414,7 @@ body {
 #team .foto {
 
 	    width: 100px;
+	width: 100px;
     height: 100px;
     background: black;
     position: absolute;
@@ -419,6 +432,17 @@ body {
 	border-radius: 20px;
 	line-height: 18px;
 	font-family: helvetica;
+}
+
+#team .box_image {
+	background-image: url('https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+	height: 500px;
+	width: 100%;
+	margin-top: 100px;
 }
 
 

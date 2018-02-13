@@ -193,5 +193,8 @@
 		
 	</div>
 
+	<div class="box_image">
+	</div>
+
 
 </section>
