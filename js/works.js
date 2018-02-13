@@ -131,12 +131,7 @@ $(function() {
         $(this).css('opacity','0.7');
     }
   });
-<<<<<<< HEAD
- 
-=======
-  
 
->>>>>>> bb35dcefb77bf2eb38685c1305339633eaff3c3a
   $(window).resize(function() {
     if (innerWidth < 992) {
       positionOriginal();
