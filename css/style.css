@@ -546,9 +546,9 @@ label {
 	margin: 0;
 	text-align: center;
 	font-family: Roboto;
-	font-size: 38pt;
+	font-size: 30pt;
 	color: white;
-	line-height: 5.5;
+	line-height: 6.5;
 	height: 20px;
 }
 
@@ -865,7 +865,7 @@ label {
 
 
 .description {
-  width: 100%;
+  width: 101%;
   height: 300px;
   opacity: 0;
   border-radius: 12px;
