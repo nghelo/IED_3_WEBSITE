@@ -148,7 +148,9 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="space"></div>
+				<div class="space"><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+				</div>
 			</div>
 		</div>
   </div>
