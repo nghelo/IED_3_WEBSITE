@@ -141,9 +141,6 @@ $(function() {
       check = false;
     }
 
-
-
-
     if (a == "All") {
        $(".video").css("display","block");
        $(".video").animate({height: "300px"}, 1000);
@@ -172,7 +169,6 @@ $(function() {
         $(this).css('opacity','1');
     }
   });
-
  
   $(window).resize(function() {
     if (innerWidth < 992) {
