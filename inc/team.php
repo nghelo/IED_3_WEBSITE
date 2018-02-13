@@ -19,7 +19,10 @@
 	  					<i class="arrow up"></i>
 	  				</div>
 
-	  				<button class="button_photo">
+	  				<div class="foto foto_1"></div>
+
+	  				<button id="1" class="button_photo">
+	  				Foto
 	  				</button>
 
 	  			</div>
