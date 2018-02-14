@@ -167,25 +167,17 @@ body {
 }
 
 #team .element {
-	padding: 50px;
-	text-align: center;
-	background: #bcf6ff;
-	border-radius: 2px;
-	margin: 5px;
-	height: 250px;
-	overflow: hidden;
-	position: relative;
-	padding: 42px;
-    padding-top: 105px;
-    text-align: center;
-    background: #37AAB4;
+    background: #c4e5f0;
     border-radius: 2px;
     margin: 5px;
-    height: 380px;
+    height: 350px;
     overflow: hidden;
     position: relative;
     font-size: 17px;
     text-transform: uppercase;
+    text-align: center;
+    padding-top: 170px;
+    margin-top: 50px;
 
 }
 
@@ -195,171 +187,22 @@ body {
 	right: 0;
 	height: 15%;
 	bottom: 0;
-	background: #B20000;
+	background: #145a80;
 	transition: 0.5s ease-in-out;
 
 }
 
 #team .window .quote {
-	margin: 30px;
 	display: block;
-	position: absolute;
-	top: 50px;
-	text-align: center;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    color: white;
+    text-transform: none;
+    font-weight: 100;
 
 }
 
-#team .window1 {
-	position: absolute;
-	left: 0;
-	right: 0;
-	height: 15%;
-	bottom: 0;
-	background: #B20000;
-	transition: 0.5s ease-in-out;
-
-}
-
-#team .window1 .quote {
-	margin: 30px;
-	display: block;
-	position: absolute;
-	top: 50px;
-	text-align: center;
-}
-
-#team .window2 {
-	position: absolute;
-	left: 0;
-	right: 0;
-	height: 15%;
-	bottom: 0;
-	background: #B20000;
-	transition: 0.5s ease-in-out;
-
-}
-
-#team .window2 .quote {
-	margin: 30px;
-	display: block;
-	position: absolute;
-	top: 50px;
-	text-align: center;
-}
-
-#team .window3 {
-	position: absolute;
-	left: 0;
-	right: 0;
-	height: 15%;
-	bottom: 0;
-	background: #B20000;
-	transition: 0.5s ease-in-out;
-
-}
-
-#team .window3 .quote {
-	margin: 30px;
-	display: block;
-	position: absolute;
-	top: 50px;
-	text-align: center;
-}
-
-#team .window4 {
-	position: absolute;
-	left: 0;
-	right: 0;
-	height: 15%;
-	bottom: 0;
-	background: #B20000;
-	transition: 0.5s ease-in-out;
-
-}
-
-#team .window4 .quote {
-	margin: 30px;
-	display: block;
-	position: absolute;
-	top: 50px;
-	text-align: center;
-}
-
-#team .window5 {
-	position: absolute;
-	left: 0;
-	right: 0;
-	height: 15%;
-	bottom: 0;
-	background: #B20000;
-	transition: 0.5s ease-in-out;
-
-}
-
-#team .window5 .quote {
-	margin: 30px;
-	display: block;
-	position: absolute;
-	top: 50px;
-	text-align: center;
-}
-
-#team .window6 {
-	position: absolute;
-	left: 0;
-	right: 0;
-	height: 15%;
-	bottom: 0;
-	background: #B20000;
-	transition: 0.5s ease-in-out;
-
-}
-
-#team .window6 .quote {
-	margin: 30px;
-	display: block;
-	position: absolute;
-	top: 50px;
-	text-align: center;
-}
-
-#team .window7 {
-	position: absolute;
-	left: 0;
-	right: 0;
-	height: 15%;
-	bottom: 0;
-	background: #B20000;
-	transition: 0.5s ease-in-out;
-
-}
-
-#team .window7 .quote {
-	margin: 30px;
-	display: block;
-	position: absolute;
-	top: 50px;
-	text-align: center;
-}
-
-#team .window8 {
-	position: absolute;
-	left: 0;
-	right: 0;
-	height: 15%;
-	bottom: 0;
-	background: #B20000;
-	transition: 0.5s ease-in-out;
-
-}
-
-#team .window8 .quote {
-	margin: 30px;
-	display: block;
-	position: absolute;
-	top: 50px;
-	text-align: center;
-}
 
 #team .title {
 	font-weight: 20;
@@ -377,6 +220,7 @@ body {
 	top: -25px;
 	transform: translate(-25px, 0);
 	cursor: pointer;
+	box-shadow: 0px 1px 1px black;
 
 }
 
@@ -398,8 +242,7 @@ body {
 
 #team .button_photo {
 
-	    margin-top: 150px;
-	margin-top: 150px;
+	margin-top: 126px;
     padding: 5px 20px;
     border-radius: 2px;
     background: none;
@@ -407,13 +250,18 @@ body {
     color: white;
     text-transform: uppercase;
     letter-spacing: 2px;
-
+    transition: 0.2s ease-in-out;
+    outline: none;
 
 }
 
-#team .foto {
+#team .button_photo:hover {
+	background: white;
+	color: black;
+}
 
-	    width: 100px;
+#team .foto {
+	width: 100px;
 	width: 100px;
     height: 100px;
     background: black;
@@ -422,20 +270,45 @@ body {
     top: 40px;
     transform: translate(-50px, 0);
     display: none;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2px;
+    box-shadow: 0px 1px 1px #0000007d
 }
 
-#team .button_close {
+#team .foto_1 {
+	background-image: url("../images/antista.jpg");
+}
 
+#team .foto_2 {
+	background-image: url("../images/calabruso.jpg");
+}
+
+#team .foto_3 {
+	background-image: url("../images/IMG_flavio.jpg");
+}
+
+#team .foto_4 {
+	background-image: url("../images/diCarluccio.jpg");
+}
+
+
+#team .button_close {
 	width: 20px;
 	height: 20px;
 	background: white;
 	border-radius: 20px;
 	line-height: 18px;
 	font-family: helvetica;
+	font-size: 12px;
+    padding: 2px;
+    margin: 2px;
+    box-shadow: 0px 1px 1px #0000007d;
+    cursor: pointer;
 }
 
 #team .box_image {
-	background-image: url('https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb');
+	background-image: url('../images/fixed_photo.jpeg');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -502,6 +375,7 @@ body {
 #team .scritta, .scritta1, .scritta2, .scritta3, .scritta4, 
       .scritta5, .scritta6, .scritta7, .scritta8 {
 	padding-top: 40px;
+	color: white;
 }
 
 
