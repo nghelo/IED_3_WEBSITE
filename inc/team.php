@@ -53,7 +53,7 @@
 
 	  		<div class="window">
 
-	  				<span class="quote">Illustrator & Game Designer</span>
+	  				<span class="quote">Game Designer</span>
 
 	  				<div class="button_up">
 	  				<i class="arrow up"></i>
@@ -277,7 +277,7 @@
 
 	  				<div class="window">
 
-	  				<span class="quote">Web Designer & UX/UI Designer</span>
+	  				<span class="quote">Web Designer</span>
 
 	  				<div class="button_up">
 	  				<i class="arrow up"></i>
@@ -327,10 +327,10 @@
 	  				Foto
 	  				</button>
 
-	  				<p class="scritta8">Scrittura</p>
+	  				<p class="scritta8">Copy</p>
 	  				<div class="myProgress8"> 
                       <div class="myBar8">
-                      	<span class="progressBarFill8">80%</span>
+                      	<span class="progressBarFill8">95%</span>
                       </div>
                   </div>
 

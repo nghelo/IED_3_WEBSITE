@@ -322,6 +322,26 @@ body {
 	background-image: url("../images/diCarluccio.jpg");
 }
 
+#team .foto_5 {
+	background-image: url("../images/antista.jpg");
+}
+
+#team .foto_6 {
+	background-image: url("../images/calabruso.jpg");
+}
+
+#team .foto_7 {
+	background-image: url("../images/IMG_flavio.jpg");
+}
+
+#team .foto_8 {
+	background-image: url("../images/diCarluccio.jpg");
+}
+
+#team .foto_9 {
+	background-image: url("../images/antista.jpg");
+}
+
 
 #team .button_close {
 	width: 20px;

@@ -83,7 +83,7 @@ $("#team .skill").click(function() {
   });
 
     $("#team .skill8").click(function() {
-    $("#team .progressBarFill8").css("width", "80%");
+    $("#team .progressBarFill8").css("width", "95%");
   });
 
     $("#team .reset").click(function() {
