@@ -9,7 +9,6 @@
 		<div class="owl-carousel">
 	  		<div class="element"> 
 
-	  		Lorenzo Antista 
 	  			<div class="background_effect"></div>
 	  			<div class="color_effect"></div>
 
@@ -45,7 +44,6 @@
 
 	  		</div>
 
-	  		<div class="element"> Rosario Antonio Calabruso
 	  		<div class="element"> 
 
 	  			<div class="background_effect"></div>
@@ -83,7 +81,7 @@
 	  			</div>
 
 	  		</div>
-	  		<div class="element"> Flavio Camardella 
+
 	  		<div class="element"> 
 
 	  			<div class="background_effect"></div>
@@ -120,7 +118,7 @@
 	  			</div>
 
 	  		</div>
-	  		<div class="element"> Simone Di Carluccio 
+
 	  		<div class="element"> 
 
 
@@ -159,7 +157,7 @@
 	  			</div>
 
 	  		</div>
-	  		<div class="element"> Valentina Tiziana Manfredi 
+
 	  		<div class="element"> 
 
 
@@ -195,7 +193,7 @@
 	  			</div>
 
 	  		</div>
-	  		<div class="element"> Giuseppe Vittorio Mannino 
+
 	  		<div class="element"> 
 
 
@@ -232,7 +230,7 @@
 
 
 	  		</div>
-	  		<div class="element"> Riccardo Piccialuti 
+
 	  		<div class="element"> 
 
 
@@ -268,7 +266,7 @@
 	  			</div>
 
 	  		</div>
-	  		<div class="element"> Francesca Piccoli 
+
 	  		<div class="element"> 
 
 
@@ -304,7 +302,7 @@
 	  			</div>
 
 	  		</div>
-	  		<div class="element"> Riccardo Zianna 
+
 	  		<div class="element"> 
 
 
