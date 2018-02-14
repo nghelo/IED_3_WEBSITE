@@ -10,6 +10,10 @@
 	  		<div class="element"> 
 
 	  		Lorenzo Antista 
+	  			<div class="background_effect"></div>
+	  			<div class="color_effect"></div>
+
+	  			<div class="name">Lorenzo Antista </div>
 
 	  			<div class="window">
 
@@ -42,6 +46,12 @@
 	  		</div>
 
 	  		<div class="element"> Rosario Antonio Calabruso
+	  		<div class="element"> 
+
+	  			<div class="background_effect"></div>
+	  			<div class="color_effect"></div>
+
+	  			<div class="name">Rosario Antonio Calabruso</div>
 
 	  		<div class="window">
 
@@ -74,6 +84,13 @@
 
 	  		</div>
 	  		<div class="element"> Flavio Camardella 
+	  		<div class="element"> 
+
+	  			<div class="background_effect"></div>
+	  			<div class="color_effect"></div>
+
+	  			<div class="name">Flavio Camardella </div>
+
 	  				<div class="window">
 
 	  				<span class="quote">Game Developer</span>
@@ -104,8 +121,18 @@
 
 	  		</div>
 	  		<div class="element"> Simone Di Carluccio 
+	  		<div class="element"> 
+
+
+
+	  			<div class="background_effect"></div>
+	  			<div class="color_effect"></div>
+
+	  			<div class="name">Simone Di Carluccio </div>
 
 	  		<div class="window">
+
+
 
 	  				<span class="quote">UX Designer</span>
 
@@ -133,6 +160,13 @@
 
 	  		</div>
 	  		<div class="element"> Valentina Tiziana Manfredi 
+	  		<div class="element"> 
+
+
+	  			<div class="background_effect"></div>
+	  			<div class="color_effect"></div>
+
+	  			<div class="name">Valentina Tiziana Manfredi </div>
 
 					<div class="window">
 
@@ -162,6 +196,13 @@
 
 	  		</div>
 	  		<div class="element"> Giuseppe Vittorio Mannino 
+	  		<div class="element"> 
+
+
+	  			<div class="background_effect"></div>
+	  			<div class="color_effect"></div>
+
+	  			<div class="name">Giuseppe Vittorio Mannino </div>
 
 	  				<div class="window">
 
@@ -192,6 +233,13 @@
 
 	  		</div>
 	  		<div class="element"> Riccardo Piccialuti 
+	  		<div class="element"> 
+
+
+	  			<div class="background_effect"></div>
+	  			<div class="color_effect"></div>
+
+	  			<div class="name">Riccardo Piccialuti </div>
 
 	  				<div class="window">
 
@@ -221,6 +269,13 @@
 
 	  		</div>
 	  		<div class="element"> Francesca Piccoli 
+	  		<div class="element"> 
+
+
+	  			<div class="background_effect"></div>
+	  			<div class="color_effect"></div>
+
+	  			<div class="name">Francesca Piccoli </div>
 
 	  				<div class="window">
 
@@ -250,6 +305,13 @@
 
 	  		</div>
 	  		<div class="element"> Riccardo Zianna 
+	  		<div class="element"> 
+
+
+	  			<div class="background_effect"></div>
+	  			<div class="color_effect"></div>
+
+	  			<div class="name">Riccardo Zianna </div>
 
 
 	  				<div class="window">
